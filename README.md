@@ -1,4 +1,4 @@
-<h1 align="center">SDSZ Space</h1>
+<h1 align="center">SDSZ Space FrontEnd Web</h1>
 
 <img alt="SDSZAppLogo" src="./src/assets/SDSZ.png" width="196" height="196" />  
 
