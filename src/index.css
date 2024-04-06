@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  touch-action: manipulation; /* 禁止双击放大 */
+  -ms-text-size-adjust: 100%; /* IE10 以下禁止用户调整文本大小 */
+  -moz-text-size-adjust: 100%; /* 火狐浏览器禁止用户调整文本大小 */
+  -webkit-text-size-adjust: 100%; /* Safari 和 Chrome 禁止用户调整文本大小 */
+  zoom: 1; /* 禁止用户缩放 */
+}
