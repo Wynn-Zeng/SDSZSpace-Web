@@ -1,10 +1,12 @@
-<h1 align="center">SDSZ Space FrontEnd Web</h1>
+<div align="center">
+<h1 align="center">SDSZ Space Web</h1>
 
-<img alt="SDSZAppLogo" src="./src/assets/SDSZ.png" width="196" height="196" />  
+<img alt="SDSZAppLogo" src="./src/assets/SDSZ.png" width="128" height="128" />  
 
-<p align=""></p>
+<a href="./README_CN.md">中文版README</a> | <a href="http://sdsz.space">Official Website</a>
 
-A student space developed by ESBNU students.
+A student space developed by SDSZ students.
+</div>
 
 ## A letter to Developers
 
@@ -13,7 +15,7 @@ Space is still in a state of development, please wait patiently for development.
 
 ## Want to contribute?
 
-The web page uses React+TypeScript, so first of all, please make sure you install node.js locally.
+The SDSZSpace-Web uses React + TypeScript, so first of all, please make sure you install node.js locally.
 
 First take the repository Fork to your GitHub.
 Clone this repository to your computer:  
