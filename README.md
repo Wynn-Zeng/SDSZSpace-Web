@@ -1,30 +1,40 @@
-# React + TypeScript + Vite
+<h1 align="center">SDSZ Space</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<img alt="SDSZAppLogo" src="./src/assets/SDSZ.png" width="196" height="196" />  
 
-Currently, two official plugins are available:
+<p align=""></p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A student space developed by ESBNU students.
 
-## Expanding the ESLint configuration
+## A letter to Developers
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Hello! Welcome to the official GitHub Repository of [SDSZ Space](http://sdsz.space)!  
+Space is still in a state of development, please wait patiently for development.  
 
-- Configure the top-level `parserOptions` property like this:
+## Want to contribute?
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+The web page uses React+TypeScript, so first of all, please make sure you install node.js locally.
+
+First take the repository Fork to your GitHub.
+Clone this repository to your computer:  
+```bash
+git clone https://github.com/{your-username}/SDSZSpace-Web.git
 ```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Then install the necessary library for running  
+```bash
+npm install
+```
+After completing all the above steps, you can start your development!  
+- Run SDSZSpace-Web in localhost:  
+```bash
+npm run dev
+```
+- Build SDSZSpace-Web:  
+```bash
+npm run build
+```
+- Upload to your fork repo:  
+```bash
+git push origin main
+```
+Then submit a Pull Request.
